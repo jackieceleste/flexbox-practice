@@ -97,20 +97,20 @@ textarea {
 
 
 html {
-  background-color: #fff;
+  background-color: #2b1ba1;
   height: 100%;
 }
 
 body {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Lato', sans-serif;
   padding: 2em;
   font-size: 1.25em;
   height: 100%;
 }
 
 .wrapper {
-  /*add display:flex and set justify-content to space-between*/
   font-weight: 700;
+  font-size: 16px;
   display: flex;
   justify-content: space-between;
 }
@@ -118,17 +118,18 @@ body {
 .div-1, .div-2, .div-3 {
   color: #fff;
   line-height: 1.5em;
-  font-size: 1.6em;
-  background-color: #f16059;
-  height: 300px;
+  font-size: 1em;
   display: flex;
   width: 30%;
   justify-content: center;
   align-items: center;
+  padding: 1em 1.5em;
 }
 
-
-
+.div-2 {
+  border-left: 1px solid;
+  border-right: 1px solid;
+}
 
 /* ==========================================================================
    Helper classes
